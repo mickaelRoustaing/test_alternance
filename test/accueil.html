@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Réservez votre box en 4 étapes</h1>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-2 col-sm-12">
+                    <div id="container">
+                    <h2> 1. CHOISISSEZ</h2>
+                    La taille de box qu'il vous faut avec notre <strong>simulateur en ligne</strong>
+                </div>
+                    <img src="img/box.png" style="width: 80px ; height: 80px ;" alt="box">
+                    </div>
+                <div class="col-lg-2 col-sm-12 ">
+                    <div id="container">
+                        <h2>2. RÉSERVEZ</h2>
+                    Le box dans la ville de votre choix en quelques clics
+                </div>
+                    <img src="img/reservez.png" style="width: 80px ; height: 80px ;" alt="reservez">
+                   
+                   </div>
+                <div class="col-lg-2 col-sm-12">
+                    <div id="container">
+                        <h2>3. FINALISEZ</h2>
+                    Votre contact à distance avec la <strong>location zéro contact</strong>
+                    </div>
+                    <img src="img/finalisez.png" style="width: 80px ; height: 80px ;" alt="finalisez">
+                </div>
+                <div class="col-lg-2 col-sm-12">
+                    <div id="container">
+                        <h2>4. DÉMÉNAGER</h2>
+                    Quand vous le souhaitez. Besoin de <strong>cartons</strong> ?
+                </div>
+                    <img src="img/demenager.png" style="width: 80px ; height: 80px ;" alt="demenager">
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    <form action="page2.php" method="POST">
+        <div class="container d-flex justify-content-center" id="input">
+            <div class="row g-3  col-lg-5 col-sm-12 align-items-center">    
+                <img id="fleche" src="img/fleche.png" style="width: 50px">
+                <div class="col">
+                  <input type="text" id="postal" name="postal" class="form-control" aria-describedby="passwordHelpInline" required
+                  minlength="5" maxlength="5">
+                </div>
+                <div class="col" id="box">
+                    <button type="submit" class="btn">
+                        <span style="color:white">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                      TROUVER MON BOX</span>
+                    </button>
+                  </div>
+              </div>
+        </div>
+    </form>
+    
+</body>
+</html>
+
